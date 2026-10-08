@@ -1,0 +1,58 @@
+{
+  "pipeline_run_at": "2026-10-08T10:15:46.369087Z",
+  "datasets": {
+    "colleges": {
+      "dataset_name": "colleges",
+      "input_records": 98,
+      "valid_records": 98,
+      "invalid_records": 0,
+      "exact_duplicates_removed": 0,
+      "possible_duplicates": 0,
+      "missing_important_fields": {
+        "Standard_University_Name": 23
+      },
+      "normalized_fields": {
+        "courses": 95,
+        "location": 1
+      },
+      "errors": []
+    },
+    "career_pathway": {
+      "dataset_name": "career_pathway",
+      "input_records": 237,
+      "valid_records": 1,
+      "invalid_records": 0,
+      "exact_duplicates_removed": 0,
+      "possible_duplicates": 0,
+      "missing_important_fields": {
+        "id": 1,
+        "entrance_exams": 62,
+        "colleges_india": 12
+      },
+      "normalized_fields": {},
+      "errors": []
+    },
+    "upskilling_courses": {
+      "dataset_name": "upskilling_courses",
+      "input_records": 100,
+      "valid_records": 100,
+      "invalid_records": 0,
+      "exact_duplicates_removed": 0,
+      "possible_duplicates": 0,
+      "missing_important_fields": {
+        "course_duration": 17,
+        "academic_level": 2,
+        "institute": 2
+      },
+      "normalized_fields": {},
+      "errors": []
+    }
+  },
+  "summary": {
+    "total_input_records": 435,
+    "total_valid_records": 199,
+    "total_invalid_records": 0,
+    "total_duplicates_removed": 0,
+    "total_possible_duplicates": 0
+  }
+}
